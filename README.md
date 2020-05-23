@@ -28,6 +28,7 @@
  - 가입
 POST
 http://localhost:8080/login/signup
+
 {
 	"id" : "ccc@naver.com",
 	"password" : "test123",
@@ -37,6 +38,7 @@ http://localhost:8080/login/signup
  - 로그인 
 POST
 http://localhost:8080/login/signin
+
 {
 	"id" : "ccc@naver.com",
 	"password" : "test123"
@@ -46,6 +48,7 @@ http://localhost:8080/login/signin
  - 쿠폰만들기 
 POST 
 http://localhost:8080/coupon/makeCoupon
+
 header 추가
 X-AUTH-TOKEN 
 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU5MDIyMjA3OSwiZXhwIjoxNTkwMzA4NDc5fQ.hakqvn-vPQNqRR09kQ9aXGr1oMVd5Y0iNti7iQg-1xY
@@ -56,6 +59,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI
  - 할당 
 PATCH
 http://localhost:8080/coupon/allocate
+
 header 추가
 X-AUTH-TOKEN 
 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU5MDIyMjA3OSwiZXhwIjoxNTkwMzA4NDc5fQ.hakqvn-vPQNqRR09kQ9aXGr1oMVd5Y0iNti7iQg-1xY
@@ -63,6 +67,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI
  - 할당 목록 조회
 GET
 http://localhost:8080/coupon/list
+
 header 추가
 X-AUTH-TOKEN 
 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU5MDIyMjA3OSwiZXhwIjoxNTkwMzA4NDc5fQ.hakqvn-vPQNqRR09kQ9aXGr1oMVd5Y0iNti7iQg-1xY
@@ -70,6 +75,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI
  - 할당 사용
 PATCH
 http://localhost:8080/coupon/using
+
 header 추가
 X-AUTH-TOKEN 
 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU5MDIyMjA3OSwiZXhwIjoxNTkwMzA4NDc5fQ.hakqvn-vPQNqRR09kQ9aXGr1oMVd5Y0iNti7iQg-1xY
@@ -80,6 +86,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI
  - 할당 사용 취소
 PATCH
 http://localhost:8080/coupon/cancle
+
 header 추가
 X-AUTH-TOKEN 
 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU5MDIyMjA3OSwiZXhwIjoxNTkwMzA4NDc5fQ.hakqvn-vPQNqRR09kQ9aXGr1oMVd5Y0iNti7iQg-1xY
@@ -89,12 +96,14 @@ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI
 
 - 만기쿠폰 조회
 http://localhost:8080/coupon/expirelist
+
 header 추가
 X-AUTH-TOKEN 
 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU5MDIyMjA3OSwiZXhwIjoxNTkwMzA4NDc5fQ.hakqvn-vPQNqRR09kQ9aXGr1oMVd5Y0iNti7iQg-1xY
 
  - 파일업로드
 http://localhost:8080/coupon/uploadCoupon
+
 header 추가
 X-AUTH-TOKEN 
 eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMDY1Iiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU5MDIyMjA3OSwiZXhwIjoxNTkwMzA4NDc5fQ.hakqvn-vPQNqRR09kQ9aXGr1oMVd5Y0iNti7iQg-1xY
