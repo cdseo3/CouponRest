@@ -19,6 +19,7 @@ public class ExceptionController {
     @GetMapping(value = "/accessdenied")
     public @ResponseBody Map<String,String> accessdeniedException() {
     	throw new AccessDeniedException("");
+    	
     }
 
 }

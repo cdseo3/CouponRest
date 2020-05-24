@@ -17,6 +17,7 @@ public class UserAuthenticationEntryPoint implements AuthenticationEntryPoint {
     public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException ex) 
     throws IOException,ServletException {
 		response.sendError(HttpServletResponse.SC_UNAUTHORIZED, ex.getMessage());
+		
     }
 
 }
