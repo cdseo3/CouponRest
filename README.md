@@ -11,6 +11,7 @@
  - opencsv
  - jjwt 0.9.1
  - SpringSecurity 
+ - postman
 
 2. 개발 완료 
  - 선택 문제 완료 
