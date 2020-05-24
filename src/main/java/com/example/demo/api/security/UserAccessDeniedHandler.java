@@ -12,7 +12,8 @@ import java.io.IOException;
 public class UserAccessDeniedHandler implements AccessDeniedHandler {
  	
 	   @Override
-       public void handle(HttpServletRequest request, HttpServletResponse response, AccessDeniedException exception) throws IOException {
+       public void handle(HttpServletRequest request, HttpServletResponse response, AccessDeniedException exception) 
+    	throws IOException {
 	        System.out.println("로그인 오류");
 	        response.sendRedirect("/exception/accessdenied");
 	   }
